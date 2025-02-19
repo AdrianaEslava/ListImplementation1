@@ -107,8 +107,10 @@ public class SimpleList <T> implements List<T> {
 
     @Override//15
     public Object get(int index) {
+        Object o = new Object();
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'get'");
+        return o;
     }
 
     @Override//16
